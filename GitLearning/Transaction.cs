@@ -5,5 +5,6 @@ namespace GitLearning
         public int Id { get; set; }
         public decimal TransferAmoutn { get; set; }
         public decimal ReceiveAmount { get; set; }
+        public int State { get; set; }
     }
 }
